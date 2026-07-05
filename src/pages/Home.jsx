@@ -11,7 +11,7 @@ export default function Home() {
       <div className="shell hero-content">
         <div className="eyebrow light"><i/>Technology that moves business forward</div>
         <h1>Build smarter.<br/>Operate faster.<br/><em>Grow with confidence.</em></h1>
-        <p>MCS Tech Solutions creates custom software, AI automation and digital systems that turn complex business operations into a competitive advantage.</p>
+        <p>MCS Tech Solution creates custom software, AI automation and digital systems that turn complex business operations into a competitive advantage.</p>
         <div className="hero-actions"><Link className="button" to="/contact">Start your project <Icon name="arrow" size={18}/></Link><Link className="quiet-link" to="/services">Explore our expertise <Icon name="arrow" size={16}/></Link></div>
         <div className="hero-proof"><span><b>120+</b> projects delivered</span><span><b>98%</b> client satisfaction</span><span><b>24/7</b> support available</span></div>
       </div>
