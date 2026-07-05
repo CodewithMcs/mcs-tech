@@ -9,13 +9,13 @@ export default function Layout() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' })
     const titles = {
-      '/': 'MCS Tech Solution | Software, Automation & AI',
-      '/about': 'About | MCS Tech Solution',
-      '/services': 'Services | MCS Tech Solution',
-      '/solutions': 'Solutions | MCS Tech Solution',
-      '/contact': 'Contact | MCS Tech Solution',
+      '/': 'MCS Tech Solutions | Software, Automation & AI',
+      '/about': 'About | MCS Tech Solutions',
+      '/services': 'Services | MCS Tech Solutions',
+      '/solutions': 'Solutions | MCS Tech Solutions',
+      '/contact': 'Contact | MCS Tech Solutions',
     }
-    document.title = titles[location.pathname] || 'Page Not Found | MCS Tech Solution'
+    document.title = titles[location.pathname] || 'Page Not Found | MCS Tech Solutions'
   }, [location.pathname])
 
   useEffect(() => {
